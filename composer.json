@@ -1,0 +1,21 @@
+{
+    "name": "acer/php-practise",
+    "description": "Php Design Pattern with laracast",
+    "authors": [
+        {
+            "name": "islamMaruf",
+            "email": "maruf4426@diu.edu.bd"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AdapterPattern\\": "adapterDesignPattern/",
+            "TemplatePattern\\":"templeteDesignPattern/",
+            "Strategy\\":"strategyDesignPattern/",
+            "ChainResponsibilities\\": "chainOfResponsibilityDesignPattern/",
+            "SpecificationPattern\\": "specificationPattern/",
+            "DecoratorPattern\\":"decoratorDesignPattern/"
+        }
+    }
+}
